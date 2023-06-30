@@ -50,6 +50,9 @@ a {
   background-color: rgba(0, 0, 0, 0.374);
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   background-image: cover;
   width: 100%;
