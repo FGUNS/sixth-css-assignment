@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+ul {
+  margin: 0 0 0 250px;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  background: green;
+  overflow: auto;
+}
+li {
+  float: left;
+}
+li a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: white;
+  font-family: poppinss;
+}
+
+.logo h1 {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.background {
+  background-color: rgb(34, 33, 33);
+}
+
+.body1 {
+  background-image: url(code\ background.jpg);
+  background-size: 1500px;
+  background-color: rgba(0, 0, 0, 0.374);
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+
+  background-image: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 100px;
+  font-size: 30px;
+}
+.subfirst {
+  margin-top: -45px;
+}
+
+.heading2 {
+  min-height: 80vh;
+  background: rgb(34, 33, 33);
+}
+.heading3 {
+  color: aliceblue;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 400px;
+  padding-top: 100px;
+}
+.subcontact {
+  color: aliceblue;
+  text-align: center;
+  margin-top: -30px;
+  font-weight: lighter;
+}
+.icons {
+  color: white;
+  margin-right: 400px;
+  margin-left: 450px;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.fa-regular {
+  color: white;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.fa-solid {
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+.fa-brands {
+  color: white;
+  padding: 10px;
+}
+hr {
+  height: 3px;
+  background-color: green;
+  border: none;
+}
+
+h3 {
+  display: inline;
+  color: white;
+  font-weight: 200;
+}
+.f2 {
+  float: right;
+  padding: 10px;
+  margin-right: 300px;
+}
+.f1 {
+  float: left;
+  padding: 10px;
+  margin-left: 300px;
+}
